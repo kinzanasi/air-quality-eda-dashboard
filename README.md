@@ -1,72 +1,40 @@
-🌍 Air Quality Dataset
-📖 Overview
+# 🌍 Air Quality Index (AQI) Data Analysis & Interactive Dashboard
 
-This dataset contains air quality data collected from multiple reliable sources such as:
+An end-to-end Data Science project featuring **Exploratory Data Analysis (EDA)** and an interactive **Streamlit Web Application** to monitor and analyze air quality metrics and pollutant trends.
 
-OpenAQ
+---
 
-AQICN
+## 📌 Project Overview
+This project analyzes air pollutants (such as **PM2.5, PM10, Ozone, NO2, CO, SO2**) and meteorological parameters (**Temperature** and **Humidity**) to explore air quality patterns and distributions.
 
-US EPA (United States Environmental Protection Agency)
+### 🎯 Key Highlights
+- **Exploratory Data Analysis (EDA):** Inspected dataset structure, checked duplicates and missing values, applied IQR outlier checks, and generated visualizations.
+- **Feature Engineering:** Categorized `PM2.5` concentration levels into Air Quality classes (`Good`, `Moderate`, `Poor`).
+- **Interactive Dashboard:** Built with [Streamlit](https://streamlit.io/), [Pandas](https://pandas.pydata.org/), [Seaborn](https://seaborn.pydata.org/), and [Plotly](https://plotly.com/python/).
 
-The dataset includes various pollutant concentrations, meteorological factors, and AQI values, making it suitable for data analysis, visualization, and predictive modeling.
+---
 
-🎯 Purpose
+## 🚀 Live Demo App
+View the deployed app here:
+👉 **[Launch Streamlit Air Quality Dashboard](https://share.streamlit.io)**  
+*(Replace this URL with your deployed Streamlit Cloud app link once live.)*
 
-The goal of this dataset is to provide a comprehensive resource for:
+---
 
-Machine Learning tasks such as regression, classification, and forecasting.
+## 📁 Repository Structure
 
-Analytics & Visualization projects to explore air pollution trends.
+```text
+├── app.py                   # Streamlit dashboard application
+├── air_quality_dataset.csv  # Air quality dataset
+├── Untitled17.ipynb         # Data cleaning and EDA notebook
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
 
-Research & Education for students and practitioners studying environmental science and data-driven solutions.
 
-📊 Features
 
-Pollutants: PM2.5, PM10, NO₂, SO₂, CO, O₃
 
-Air Quality Index (AQI) values
 
-Weather conditions (temperature, humidity, wind speed, etc.)
 
-Timestamps & Locations (for time-series and regional analysis)
 
-Includes null values, outliers, and duplicates, mimicking real-world data scenarios.
 
-🔧 Use Cases
 
-Time-series forecasting of AQI and pollutants.
-
-Predictive modeling using regression or ensemble learning.
-
-Classification tasks (e.g., categorizing air quality as Good/Moderate/Unhealthy).
-
-Exploratory Data Analysis (EDA) to find patterns and correlations.
-
-Data preprocessing practice (handling missing values, outliers, duplicates).
-
-📂 File Details
-
-Filename: air_quality_dataset.csv
-
-Format: CSV (Comma-Separated Values)
-
-Size: Medium (~ few MB, manageable in Kaggle notebooks)
-
-Rows: Multiple records across different cities & times
-
-⚠️ Notes
-
-Data may contain missing values and inconsistencies to resemble real-world datasets.
-
-Users are encouraged to apply preprocessing, feature engineering, and normalization before using it for ML tasks.
-
-Always cross-check trends with official sources before drawing policy-related conclusions.
-
-🙌 Acknowledgements
-
-Special thanks to:
-
-OpenAQ, AQICN, and US EPA for providing open access to air quality data.
-
-The open-source community for enabling research and development in environmental data science.
