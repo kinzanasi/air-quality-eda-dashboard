@@ -16,7 +16,7 @@ This project analyzes air pollutants (such as **PM2.5, PM10, Ozone, NO2, CO, SO2
 
 ## 🚀 Live Demo App
 View the deployed app here:
-👉 **[Launch Streamlit Air Quality Dashboard](https://share.streamlit.io)**  
+👉 [Launch Streamlit Air Quality Dashboard](https://air-quality-eda-dashboard-jhmgasaw7gtx1fytubjq6x.streamlit.app)  
 *(Replace this URL with your deployed Streamlit Cloud app link once live.)*
 
 ---
